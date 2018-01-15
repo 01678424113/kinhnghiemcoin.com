@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){(!1===document.referrer||sbprotrack.hasOwnProperty("ajax_url"))&&jQuery.ajax({url:sbprotrack.ajax_url,type:"post",data:{action:"fn_sbpro_add_visit",currurl:window.location.href,referer:document.referrer,ua:navigator.userAgent},success:function(r){}})});
